@@ -21,7 +21,7 @@ import com.risk.utility.staticApplicationVariables;
  * This class belongs to a listener which removes a continent from the map file based
  * on the events captured from the user interface.
  * 
- * @author Raghav 
+ * @author Raghav Verma
  *  * @version 1.0
  */
 public class RemoveContinentListener extends JFrame implements ActionListener {
