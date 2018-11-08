@@ -7,7 +7,7 @@ import java.util.List;
  * This class represents a continent and it maintains name, id, control number and
  * playerId 
  * 
- * @author Ravneet Singh Brar
+ * @author Ravneet Singh 
  * @version 1.0
  */
 
