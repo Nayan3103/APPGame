@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 import com.risk.utility.staticApplicationVariables;
 
 /**
- * @author Ravneet Singh Brar
+ * @author Manjinder Kaur
  */
 public class ExchangeCardsforAplayerListener extends JFrame implements ActionListener {
 
