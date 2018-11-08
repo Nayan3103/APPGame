@@ -5,7 +5,7 @@ import java.util.Observer;
 
 /**this class represents observer class for card exchange view
  * it looks at CardExchange observable to show the current cards of player in hand
- * @author Raghav
+ * @author Ravneet Singh Brar
  *@version 1.0.0.0
  */
 public class CardExchangeObserver implements Observer{
