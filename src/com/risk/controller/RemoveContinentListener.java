@@ -30,7 +30,7 @@ public class RemoveContinentListener extends JFrame implements ActionListener {
 
 	
 
-	@Override
+	@Override   
 	public void actionPerformed(ActionEvent e) {
 		jFrame = new JFrame("Remove Continent Frame");
 		jFrame.setSize(360, 210);
