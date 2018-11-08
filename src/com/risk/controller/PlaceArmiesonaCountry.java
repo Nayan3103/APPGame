@@ -43,7 +43,7 @@ public class PlaceArmiesonaCountry implements ActionListener {
 			public void actionPerformed(ActionEvent e) {
 				String sName = ((JComboBox) e.getSource()).getSelectedItem().toString();
 				JOptionPane.showMessageDialog(null, " Country Selected " + sName + "Enter Armies now :");
-			}
+			} 
 		});
 		JLabel numberofarmies = new JLabel("Number Of Armies:");
 		JTextField jtfNumberOfArmiesTField = new JTextField(7);
