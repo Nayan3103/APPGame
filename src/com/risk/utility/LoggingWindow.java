@@ -9,7 +9,7 @@ import java.util.Calendar;
 
 /**
  * Logging window to write the phases of the game
- * @author Raghav
+ * @author Ravneet Singh Brar
  * @version 1.0
  */
 public class LoggingWindow {
