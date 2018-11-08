@@ -26,7 +26,7 @@ import com.risk.view.MainWindow;
 /**
  * This class belongs to a listener which performs action of adding a continent
  * based on the events captured from the front end.
- * @author Nayan
+ * @author Ravneet Singh Brar
  * @version 1.0
  */
 
