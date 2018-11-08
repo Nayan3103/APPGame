@@ -25,7 +25,7 @@ import com.risk.utility.TurnPhases;
  * players as well as the map it provides all objects and methods needed for
  * presentation the game
  * 
- * @author Raghav
+ * @author Ravneet Singh Brar
  * @version 1.0.0.0
  */
 
