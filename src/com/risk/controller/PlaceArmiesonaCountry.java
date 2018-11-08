@@ -55,7 +55,7 @@ public class PlaceArmiesonaCountry implements ActionListener {
 
 			//ok button action perform
 			@Override
-			public void actionPerformed(ActionEvent e) {
+			public void actionPerformed(ActionEvent e) { 
 				// TODO Auto-generated method stub
 				JOptionPane.showMessageDialog(null, " Countries Allocated  Successfully!");
 				jFrame.dispose();
