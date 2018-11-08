@@ -15,7 +15,7 @@ import com.risk.utility.staticApplicationVariables;
 /**
  * This class belongs to a listener which performs action on events
  * 
- * @author Nayan
+ * @author Manjinder Kaur
  * @version 1.0
  */
 
