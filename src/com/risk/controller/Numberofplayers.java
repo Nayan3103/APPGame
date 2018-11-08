@@ -20,7 +20,7 @@ import com.risk.utility.staticApplicationVariables;
  * This class Adds a country to the map file based
  * on the events captured from the user interface.
  * 
- * @author Nayan
+ * @author Manjinder Kaur
  * @version 1.0
  */
 
