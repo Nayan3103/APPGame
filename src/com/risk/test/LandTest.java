@@ -14,7 +14,7 @@ import com.risk.model.Player;
  * The class <code>TestLand</code> contains tests for the class
  * <code> {@link Land}</code>
  * 
- * @author Manjinder
+ * @author Ravneet Singh Brar
  * @version 1.0
  */
 
