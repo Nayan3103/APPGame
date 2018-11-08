@@ -8,7 +8,7 @@ import java.util.List;
  * two countries which are neighbor it has different methods to change and set
  * the state of the object
  * 
- * @author Sukhmeet
+ * @author Ravneet Singh Brar
  * @version 1.0
  */
 public class Edge implements Comparable {
