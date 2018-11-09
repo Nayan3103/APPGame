@@ -26,6 +26,7 @@ import com.risk.model.Map;
  */
 
 public class MapParser {
+	
 	private static Map map;
 
 	public MapParser() {
