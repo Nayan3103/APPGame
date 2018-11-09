@@ -121,6 +121,7 @@ public class MapParser {
 			// TODO Auto-generated catch block
 			return isValid;
 		}
+		
 		StringBuilder sb = new StringBuilder();
 		String sLine = br.readLine();
 		String sHeader = "";
