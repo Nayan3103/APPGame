@@ -20,7 +20,7 @@ import com.risk.utility.staticApplicationVariables;
 /**
  * This class puts army on the countries.
  * 
- * @author Ravneet Singh Brar
+ * @author Manjinder Kaur
  * @version 1.0
  */
 public class PlaceArmiesonaCountry implements ActionListener {
