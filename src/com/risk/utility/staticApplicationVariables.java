@@ -2,6 +2,7 @@ package com.risk.utility;
 
 import com.risk.model.GameBoard;
 
+
 public class StaticApplicationVariables {
 
 	public static int SCREEN_WIDTH = 0;
