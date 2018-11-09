@@ -23,7 +23,7 @@ public class LoggingWindow {
 		Calendar cal = Calendar.getInstance();
 		// this method appends date to the file
 		fWriter.write(dateFormat.format(cal.getTime())+ "\n");
-		// appends the string to the file
+		// this appends the string to the file
 		fWriter.write(line + "\n");
 		fWriter.close();
 	}
