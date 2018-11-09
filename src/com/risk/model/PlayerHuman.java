@@ -1,5 +1,4 @@
 package com.risk.model;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
