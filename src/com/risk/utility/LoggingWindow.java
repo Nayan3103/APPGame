@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 /**
- * Logging window to write the phases of the game
+ * Logging window to write the phases of the risk game
  * @author Ravneet Singh Brar
  * @version 1.0
  */
