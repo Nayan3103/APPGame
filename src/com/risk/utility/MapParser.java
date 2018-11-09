@@ -75,6 +75,7 @@ public class MapParser {
 						break;
 					}
 				}
+				
 				sLine = br.readLine();
 			}
 			br.close();
