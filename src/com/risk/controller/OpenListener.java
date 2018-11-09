@@ -6,7 +6,6 @@ import com.risk.model.Edge;
 import com.risk.model.GameBoard;
 import com.risk.utility.MapParser;
 import com.risk.utility.staticApplicationVariables;
-
 import java.awt.event.ActionListener;
 import java.beans.XMLDecoder;
 import java.awt.event.ActionEvent;
