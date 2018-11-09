@@ -29,7 +29,7 @@ import com.risk.view.MainWindow;
  * "File" menu of the main user interface.
  *  It's responsible for requesting the user for a file to open, and then tries to open it and display it in the main
  * user interface. 
- * @author Raghav
+ * @author Manjinder Kaur
  */
 public class OpenListener implements ActionListener {
 
