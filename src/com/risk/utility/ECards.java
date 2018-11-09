@@ -1,7 +1,7 @@
 package com.risk.utility;
 
 /**
- * this is enum for carts it has three types infantry, cavalry, or artillery
+ * this is enum for cards and  it has three types named  infantry, cavalry, or artillery
  * 
  * @author Raghav
  * @version 1.0.0.0
