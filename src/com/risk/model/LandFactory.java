@@ -6,7 +6,6 @@ package com.risk.model;
  * @author Nayan
  * @version 1.0.0.0
  */
-
 public class LandFactory {
 
 	public static Land GetLand(String type, String param_name, int param_continentId, int param_x, int param_y,
