@@ -21,7 +21,7 @@ public class LoggingWindow {
 		FileWriter fWriter = new FileWriter(sFileName, true);
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		Calendar cal = Calendar.getInstance();
-		// appends date to the file
+		// this method appends date to the file
 		fWriter.write(dateFormat.format(cal.getTime())+ "\n");
 		// appends the string to the file
 		fWriter.write(line + "\n");
