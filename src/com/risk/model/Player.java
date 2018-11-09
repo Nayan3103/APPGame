@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Observer;
-
 import com.risk.utility.LoggingWindow;
 import com.risk.utility.TurnPhases;
 
