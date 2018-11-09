@@ -7,6 +7,7 @@ import java.io.IOException;
  * 
  *
  */
+
 public interface StrategyPlayer {
 	String ReinforcementPhase(Player param_currentPlayer) throws IOException, Exception;
 	String AttackPhase(Player param_currentPlayer) throws IOException, Exception;
