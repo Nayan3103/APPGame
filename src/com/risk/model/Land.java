@@ -7,7 +7,6 @@ package com.risk.model;
  * @author Ravneet
  * @version 1.0
  */
-
 public class Land implements ILand {
 	private static int counter = 0;
 	protected int id,playerId;
