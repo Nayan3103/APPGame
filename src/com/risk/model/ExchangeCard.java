@@ -1,5 +1,4 @@
 package com.risk.model;
-
 import java.util.List;
 import java.util.Observable;
 
