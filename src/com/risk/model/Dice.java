@@ -1,5 +1,4 @@
 package com.risk.model;
-
 /**
  * this class simulate the method to roll dice
  * 
