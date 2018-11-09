@@ -1,5 +1,4 @@
 package com.risk.model;
-
 import java.io.IOException;
 
 public class AggressivePlayer implements StrategyPlayer{
