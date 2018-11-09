@@ -28,7 +28,9 @@ import com.risk.model.Map;
 
 public class MapParser {
 	private static Map map;
-	public MapParser() {
+	public MapParser()
+	{
+	
 	}
 
 	public static boolean BMapValidator(String input) throws Exception {
