@@ -18,7 +18,7 @@ import com.risk.model.Land;
 import com.risk.model.Map;
 
 /**
- * This class parses the input map files and creates the map it also generate a
+ * This class parses the input map files and creates the map of it and  also generate a
  * map file from map object
  * 
  * @author Raghav
