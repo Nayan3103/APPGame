@@ -103,6 +103,7 @@ public class MapParser {
 		return true;
 	}
 
+	
 	/**
 	 * 
 	 * @param param_input which is the name of the map file
