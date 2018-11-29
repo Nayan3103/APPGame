@@ -1,8 +1,8 @@
 [Map]
 author=Sean O'Connor
 image=world.bmp
-wrap=yes 
-scroll=vertical
+wrap=no
+scroll=horizontal
 warn=yes
 
 [Continents]
