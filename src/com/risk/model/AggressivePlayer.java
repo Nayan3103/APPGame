@@ -1,7 +1,7 @@
 package com.risk.model;
 import java.io.IOException;
 
-public class AggressivePlayer implements StrategyPlayer{
+public class AggressivePlayer implements Strategy{
 
 	@Override
 	public String ReinforcementPhase(Player param_currentPlayer) throws IOException, Exception {
@@ -34,6 +34,7 @@ public class AggressivePlayer implements StrategyPlayer{
 				cntStrongest=c;
 				armies=c.GetArmies();
 			}
+			
 		}
 		if(cntStrongest!=null){
 			while(cntStrongest.GetArmies()>2){
