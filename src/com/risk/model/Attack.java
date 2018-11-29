@@ -1,5 +1,5 @@
 package com.risk.model;
-import java.util.List.*;
+import java.util.List;
 
 /**
  * this class is used to  simulate the attack phase of project 
