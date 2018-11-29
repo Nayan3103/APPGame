@@ -1,9 +1,9 @@
 package com.risk.model;
 /**
- * this class simulate the method to roll dice
+ * this class stimulate the method of  roll dice
  * 
- * @author Ravneet
- * @version 1.0
+ * @author Ravneet Singh Brar
+ * @version 1.0.0
  */
 public class Dice implements Comparable {
 	private int dice;
