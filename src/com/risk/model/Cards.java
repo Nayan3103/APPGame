@@ -9,7 +9,7 @@ import com.risk.utility.*;
  * @version 1.0
  */
 public class Cards {
-	private static int icounter = 3;
+	private static int icounter = 0;
 	protected int id;
 	protected ECards eCardType;
 	protected int playerId;
@@ -28,7 +28,7 @@ public class Cards {
 		icounter++;
 		this.id = this.icounter;
 		this.eCardType = param_name;
-		this.playerId = 1;
+		this.playerId = -1;
 
 	}
 
