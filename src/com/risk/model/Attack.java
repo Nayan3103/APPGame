@@ -4,8 +4,8 @@ import java.util.List;
 /**
  * this class simulate the attack phase
  * 
- * @author Raghav
- * @version 1.0.0.0
+ * @author Sukhmeet 
+ * @version 1.0.0
  */
 public class Attack {
 	public List<Dice> attackerDices;
@@ -13,13 +13,13 @@ public class Attack {
 	public Country defenderCountry;
 	public Player defenderPlayer;
 	public boolean isCaptured;
-	public boolean isOccupied;
+	public boolean isOccupied  ;
 	public List<Dice> defenderDices;
 	private static Attack instance;
 	
 
 	/**
-	 * This constructor creates the object
+	 * This constructor creates the object of parameters 
 	 * 
 	 * 
 	 * @param param_defenderCountry
