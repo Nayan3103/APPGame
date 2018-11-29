@@ -1,7 +1,7 @@
 package com.risk.model;
 import java.io.IOException;
 
-public class AggressivePlayer implements Strategy{
+public class AggressivePlayer implements StrategyPlayer {
 
 	@Override
 	public String ReinforcementPhase(Player param_currentPlayer) throws IOException, Exception {
