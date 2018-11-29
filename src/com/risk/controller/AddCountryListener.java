@@ -80,6 +80,7 @@ public class AddCountryListener extends JFrame implements ActionListener {
 		 * @param actionEvent
 		 *            Not used.
 		 */
+		// here we used try and its corresponding catch to handle expections like IO Exception 
 		btnOK.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
