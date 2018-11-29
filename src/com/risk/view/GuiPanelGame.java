@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 
 /**
- * This class is used for the lower window of the main frame 
+ * This class is used for the lower window of the main frame of project 
  * 
  */
 public class GuiPanelGame extends JPanel{
