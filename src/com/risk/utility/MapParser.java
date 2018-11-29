@@ -32,7 +32,7 @@ public class MapParser {
 	{
 	
 	}
-
+// in this method there is try and its corresponding catch to handle expection if its get throwed .
 	public static boolean BMapValidator(String input) throws Exception {
 		BufferedReader br = null;
 		try {
