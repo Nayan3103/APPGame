@@ -7,13 +7,13 @@ import java.util.List;
  * of the country it has different methods to change the state and returns the
  * state of the object
  * 
- * @author Nayan
- * @version 1.0
+ * @author Sukhmeet Kaur 
+ * @version 1.0.0
  */
 public class Country extends Land {
 	private int armies;
 	private int intContinentId;
-	private int x,y;
+	private int x,y,z;
 	public List<Country> neighbors;
 	public boolean bVisited;
 	
