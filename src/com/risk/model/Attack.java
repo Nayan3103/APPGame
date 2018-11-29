@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * this class is used to  simulate the attack phase of project 
  * 
- * @author Sukhmeet 
+ * @author Sukhmeet Kaur 
  * @version 1.0.0
  */
 public class Attack {
