@@ -10,11 +10,11 @@ import java.util.Calendar;
 /**
  * Logging window to write the phases of the risk game
  * @author Ravneet Singh Brar
- * @version 1.0
+ * @version 1.0.0
  */
 public class LoggingWindow {
 	/*
-	 * this method writes it into loggingwindow file
+	 * this method is used writes  into loggingwindow file
 	 */
 	public static void Log(String line) throws IOException {
 		String sFileName = "LoggingWindow.txt";
@@ -24,7 +24,7 @@ public class LoggingWindow {
 		// this method appends date to the file
 		fWriter.write(dateFormat.format(cal.getTime())+ "\n");
 		// this appends the string to the file
-		fWriter.write(line + "\n");
+		fWriter.write(line +  "\n");
 		fWriter.close();
 	}
 
