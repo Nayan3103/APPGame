@@ -1,6 +1,6 @@
 /**
- * This test class is for TurnOrganizer
- * @author This test class is written by Mitra Azari
+ * This is a test class and it is for TurnOrganizer
+ * @author Nayan Girase
  */
 
 import static org.junit.Assert.*;
@@ -19,14 +19,7 @@ public class TestTurnOrganizer {
 		System.out.println("@BeforeClass");
 		game = new GameBoard();
 	}
-		@Test
-	public void testGetCurrentPhase() {
-			TurnPhases p = game.turnOrganizer.GetCurrentPhase();
-				
-			assertEquals(p, TurnPhases.Startup);
-	
-	
-	}
+		
 		
 
 		@Test
@@ -36,7 +29,14 @@ public class TestTurnOrganizer {
 			assertEquals(p, TurnPhases.Reinforcement);
 			
 		}
-		
+		@Test
+	public void testGetCurrentPhase() {
+			TurnPhases p = game.turnOrganizer.GetCurrentPhase();
+				
+			assertEquals(p, TurnPhases.Startup);
+	
+	
+	}
 	
 }
 
