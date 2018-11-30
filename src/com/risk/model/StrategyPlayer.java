@@ -1,11 +1,9 @@
        package com.risk.model;
 import java.io.IOException;
 
-/**this an interface that all concrete strategies should implement it
- * 
+/**this an interface that all concrete strategies should implement it.
  * @author Nayan
- * 
- *
+ * @version 1.0.0.0
  */
 
 public interface StrategyPlayer {
