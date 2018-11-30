@@ -1,6 +1,11 @@
      package com.risk.model;
 import java.io.IOException;
 import java.util.Random;
+/**this class represents Random player strategy implementig the strategy pattern
+ * this strategy reinforces,attacks and fortifies randomly.
+ * @author Raghav verma
+ * @version 1.0.0.0
+ */
 
 public class PlayerRandom implements StrategyPlayer{
 
