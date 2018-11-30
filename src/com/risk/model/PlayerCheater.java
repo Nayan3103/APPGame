@@ -5,7 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.risk.utility.LoggingWindow;
-
+/**this class represents cheater player strategy implementig the strategy pattern
+ * 
+ * @author Raghav verma
+ * @version 1.0.0.0
+ */
 public class PlayerCheater implements StrategyPlayer{
 
 	@Override
