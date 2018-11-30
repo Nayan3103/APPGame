@@ -3,8 +3,8 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * this class represents a class to show world domination percentage it uses map
- * observable to show the percentage
+ * this class represents a class to show world domination percentage.
+ * it uses map observable to show the percentage.
  * 
  * @author Ravneet Singh Brar
  * @version 1.0.0.0
