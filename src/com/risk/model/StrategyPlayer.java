@@ -1,4 +1,4 @@
-package com.risk.model;
+       package com.risk.model;
 import java.io.IOException;
 
 /**this an interface that all concrete strategies should implement it
