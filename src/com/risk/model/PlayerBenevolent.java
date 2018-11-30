@@ -3,7 +3,11 @@ package com.risk.model;
 import java.io.IOException;
 
 import com.risk.utility.LoggingWindow;
-
+/**this class represents Benevolent player strategy implementig the strategy pattern
+ * this strategy focuses on protecting its weak countries.
+ * @author Raghav verma
+ * @version 1.0.0.0
+ */
 public class PlayerBenevolent implements StrategyPlayer{
 	//constructor
 	public PlayerBenevolent(){
