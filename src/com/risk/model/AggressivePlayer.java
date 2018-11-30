@@ -1,7 +1,7 @@
 package com.risk.model;
 import java.io.IOException;
 /**this class represents Aggressive player strategy implementig the strategy pattern
- * 
+ * this strategy player focuses on attack.
  * @author Raghav verma
  * @version 1.0.0.0
  */
