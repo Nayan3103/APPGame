@@ -24,16 +24,23 @@ public class Continent extends Land {
 	 * the constructor sets the control value and assign -1 to playerId which
 	 * means that in Gameplay phase it will be assigned to a player
 	 * 
-	 * @param param_name
-	 *            this parameter will be the name of the continent which is
-	 *            created
-	 * @param param_control
-	 *            this parameter has the value of the control of the
-	 *            continent
+	 * @param param_name this parameter will be the name of the continent which is created
+	 * @param param_control this parameter has the value of the control of the continent           
 	 */
 	public Continent(String param_name, int param_control) {
 		super(param_name);
 		this.control = param_control;
+	}
+
+	
+
+	/**
+	 * This method returns the value of the control object
+	 * 
+	 * @return control of the object as integer
+	 */
+	public int GetControl() {
+		return control;
 	}
 
 	/**
@@ -46,15 +53,14 @@ public class Continent extends Land {
 	}
 
 	/**
-	 * This method returns the value of the control object
+	 * this method returns the id of the player
 	 * 
-	 * @return control of the object as integer
+	 * @return the id of the player who owns the continent
 	 */
-	public int GetControl() {
-		return control;
+	public int GetPlayerId() {
+		return this.playerId;
 	}
-
-	/**
+/**
 	 * this method sets the playerId of the continent
 	 * 
 	 * @param param_playerId
@@ -64,14 +70,4 @@ public class Continent extends Land {
 		// TODO Auto-generated method stub
 		this.playerId = param_playerId;
 	}
-
-	/**
-	 * this method returns the id of the player
-	 * 
-	 * @return the id of the player who owns the continent
-	 */
-	public int GetPlayerId() {
-		return this.playerId;
-	}
-
 }
