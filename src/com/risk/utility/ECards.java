@@ -7,6 +7,6 @@ package com.risk.utility;
  * @version 1.0.0
  */
 public enum ECards {
-	Infantry, Cavalry, Artillery
+     Infantry, Cavalry, Artillery
 
 }
