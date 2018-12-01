@@ -62,19 +62,12 @@ public class Player {
 		setStrategy(strategy);
 	}
 	/**constrauctor with human as default
-	 * this is the constructor of the class it takes id and name and will asign
-	 * them to the player
-	 * 
-	 * @param prm_id
-	 *            , which its type is integer, will br the id of the player
-	 * @param prm_name
-	 *            ,which its type is string, will be the name of the player
-	 * @param prm_map
-	 *            the map
-	 * @param prm_deck
-	 *            the deck
-	 * @param prm_turnOrganizer
-	 *            the turn organizer
+	 * this is the constructor of the class it takes id and name and will asign them to the player
+	 * @param prm_id which its type is integer, will br the id of the player       
+	 * @param prm_name which its type is string, will be the name of the player           
+	 * @param prm_map the map         
+	 * @param prm_deck the deck     
+	 * @param prm_turnOrganizer the turn organizer       
 	 */
 	public Player(int prm_id, String prm_name, Map prm_map, List<Cards> prm_deck, TurnOrganizer prm_turnOrganizer) {
 		this.id = prm_id;
@@ -92,15 +85,7 @@ public class Player {
 	 * 
 	 * @return, which its type is integer, is the id of the player
 	 */
-	public int GetId() {
-		return this.id;
-	}
-
-	/**
-	 * this method returns the name of the player
-	 * 
-	 * @return, which its type is string, is the name of the player
-	 */
+	
 	public String GetName() {
 		return this.name;
 	}
@@ -110,6 +95,15 @@ public class Player {
 	 * 
 	 * @param prm_armies,
 	 *            which its type is integer, will assign to the player
+	 */
+	public int GetId() {
+		return this.id;
+	}
+
+	/**
+	 * this method returns the name of the player
+	 * 
+	 * @return, which its type is string, is the name of the player
 	 */
 	public void SetArmiesToplayer(int prm_armies) {
 		this.armies = prm_armies;
@@ -122,16 +116,7 @@ public class Player {
 	 * 
 	 * @return the number of armies of the player
 	 */
-	public int GetArmies() {
-		return this.armies;
-	}
-
-	/**
-	 * this method sets the number of armies
-	 * 
-	 * @param prm_armies
-	 *            is the number of new armies
-	 */
+	
 	public void SetArmies(int prm_armies) {
 		this.armies = prm_armies;
 	}
@@ -147,7 +132,16 @@ public class Player {
 		// tbd
 		this.armies += prm_armies;
 	}
+	public int GetArmies() {
+		return this.armies;
+	}
 
+	/**
+	 * this method sets the number of armies
+	 * 
+	 * @param prm_armies
+	 *            is the number of new armies
+	 */
 	/**
 	 * this method returns the number of armiesFromCards that the player has
 	 * 
@@ -162,16 +156,11 @@ public class Player {
 	/**
 	 * this method decalres the attacke by taking the attacker and the defender
 	 * countries' ids it creates the attack object
-	 * 
-	 * @param prm_attackerCountId
-	 *            the id of the attacker country
-	 * @param prm_defenderCountId
-	 *            the id of the defender country
-	 * @param defenderPlayer
-	 *            is the defender player
+	 * @param prm_attackerCountId the id of the attacker country         
+	 * @param prm_defenderCountId the id of the defender country       
+	 * @param defenderPlayer is the defender player        
 	 * @return the instance of the attack object
-	 * @throws IOException
-	 *             if the game started
+	 * @throws IOException if the game started         
 	 */
 	public String DeclareAttack(int prm_attackerCountId, int prm_defenderCountId, Player defenderPlayer)
 			throws IOException {
@@ -209,14 +198,10 @@ public class Player {
 
 	/**
 	 * this method takes the number of dices for attacker and defender
-	 * 
-	 * @param prm_attackerDices
-	 *            is the number of dices for attacker
-	 * @param prm_defenderDices
-	 *            is the number of dices for defender
+	 * @param prm_attackerDices is the number of dices for attacker         
+	 * @param prm_defenderDices is the number of dices for defended          
 	 * @return a successfull message
-	 * @throws IOException
-	 *             if the game started
+	 * @throws IOException if the game started
 	 */
 	public String Attack(int prm_attackerDices, int prm_defenderDices) throws IOException {
 		// apply rules on the number of dices before rolling dices
