@@ -1,5 +1,7 @@
 package com.risk.utility;
-// this is showing all phases of game like reiforcement 
-public enum TurnPhases {
-	Startup, Reinforcement, Fortification, Attack, PreGame, GameOver
+// this page contains the phases for the games 
+
+public enum TurnPhases 
+{
+	Startup, PreGame, Reinforcement, Fortification, Attack, GameOver
 }
