@@ -17,6 +17,7 @@ import javax.swing.border.*;
 import com.risk.model.Continent;
 import com.risk.model.Country;
 import com.risk.model.GameBoard;
+
 import com.risk.utility.MapParser;
 import com.risk.utility.staticApplicationVariables;
 import com.risk.view.MainWindow;
